@@ -1,0 +1,19 @@
+/* infousuario.css */
+.infousuario {
+    text-align: center;
+  }
+  .avatar {
+    margin-top: 20px;
+    border: 9px solid #8db7d2;
+    border-radius: 50%;
+    width: 10%;
+  }
+  .nome {
+    margin: 0;
+    color: #747c81;
+    margin-top: 20px;
+  }
+  .label {
+    margin-top: 15px;
+    width: 15%;
+  }

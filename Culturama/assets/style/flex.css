@@ -1,0 +1,69 @@
+.menu{
+    /* sempre aplicar na tag pai dos itens que deja arrumar */
+    display: flex; /* usado no item pai para tornar tudo container */
+    justify-content: space-evenly; /* alinhamento do container */
+    align-items: center; /* centraliza itens do container */
+    flex-wrap: wrap; /* essa propriedade permite a quebra de linha quando não há mais espaço */
+    column-gap: 33px; /* espaçamento entre os itens na forma horizontal */
+}
+
+.categorias__lista{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+
+}
+
+
+.destaques{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.destaques__barra{
+    flex-grow: 1;
+}
+
+/* tela de tablet */
+@media (min-width: 720px) { 
+    .menu{
+        column-gap: 75px;
+    }
+
+    .categorias__lista{
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .menu{
+        column-gap: 105px;
+        flex-wrap: nowrap; /* impede a quebra de linha */
+
+    }
+    /* reorganizando os itens dentro da tag pai */
+    .menu__item:nth-child(1){
+        order: 1
+    }
+    .menu__item:nth-child(2){
+        order:3
+    }
+
+    .menu__item:nth-child(3)
+    {
+        order: 4
+    }
+
+    .menu__item:nth-child(4){
+        order: 5   
+    }
+
+    .menu__item:nth-child(5){
+        order: 2;
+    }
+}
