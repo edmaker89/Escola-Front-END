@@ -20,7 +20,7 @@ body {
 .formlogin{
     background: #FFFFFF;
     width: 400px;
-    height: 320px;
+    height: 360px;
     padding: 30px;
 
 }
@@ -58,6 +58,23 @@ body {
     color: grey
 }
 
+.login__input:focus{
+    border: 4px #96e6fe solid;
+    color: rgb(69, 69, 69)
+}
+
+.login__forgetter{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 266px;
+    color: #0197dc
+}
+
+.login__forgetter:hover{
+    color: #074cd6;
+    text-decoration: underline;
+}
+
 .login__submit{
     padding: 10px;
     width: 95%;
@@ -68,7 +85,7 @@ body {
     border-radius: 10px;
     color: #FFFFFF;
     transition: 400ms;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
 
 }
@@ -78,11 +95,29 @@ body {
 }
 
 .login__submit:active{
-    background: #07a6d6;
+    background: #068eb8;
 }
 
 .login__fornecido{
     font-size: 12px;
     margin-bottom: 0;
     line-height: 1.5;
+}
+/* login nos celulares */
+@media (max-width: 445px) {
+    .login__forgetter{
+        margin-left: 250px;
+    }
+}
+/* login nos celulares antigos */
+@media (max-width: 365px) {
+    .formlogin{
+        width: 350px;
+        height: 420px;
+        padding: 15px;
+    
+    }
+    .login__forgetter{
+        margin-left: 200px;
+    }
 }
