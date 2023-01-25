@@ -1,0 +1,23 @@
+/* layout do acesso será diferente */
+/*  layout ja esta responsivo */
+
+body {
+    display: grid;
+    grid-template-rows: 15vh 75vh 10vh;
+}
+
+.o-header{
+    background-color: blueviolet;
+}
+
+.o-main{
+    background-color: brown;
+}
+
+.o-footer{
+    background-color: blue;
+}
+
+.divmain{
+    height: 12px;
+}
