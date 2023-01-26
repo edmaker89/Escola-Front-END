@@ -1,7 +1,58 @@
-body {
-    font-family: 'Montserrat', sans-serif;;
+:root{
+    --azul-escuro: #1956b4;
+    --branco-principal: #FFFFFF;
+    --azul-claro: #38b6FF;
+    --fundo-claro: #F1F8FA;
+    --font-text: 'IBM Plex Sans', sans-serif;
+    --font-titulo: 'JetBrains Mono', monospace;
+    --font-especial: 'Jura', sans-serif;
+    --font-text-alternativo: 'Open Sans', sans-serif;
 }
 
-strong {
-    font-weight: bold;
+body {
+    background-color: var(--fundo-claro);
+    color: var(--branco-principal);
+    font-family: var(--fonte-text);
+    font-size: 16px;
+    font-weight: 400;
+
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+}
+
+header {
+    background-color: var(--azul-escuro);
+    padding: 0 .5em ;
+    font-family: var(--font-titulo);
+    padding: 1em;
+}
+
+.nav-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-principal__menus{
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+.nav-principal__menus--itens:hover, .nav-principal__perfil:hover{
+    color: var(--azul-claro);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.nav-principal__perfil p{
+    margin-bottom: .3em;
+    text-align: end;
+}
+
+main{
+    color:blue;
+}
+
+footer {
+    color: red;
 }
