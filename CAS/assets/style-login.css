@@ -1,9 +1,21 @@
+:root{
+    --azul-escuro: #1956b4;
+    --branco-principal: #FFFFFF;
+    --azul-claro: #38b6FF;
+    --fundo-claro: #F1F8FA;
+    --font-text: 'IBM Plex Sans', sans-serif;
+    --font-titulo: 'JetBrains Mono', monospace;
+    --font-especial: 'Jura', sans-serif;
+    --font-text-alternativo: 'Open Sans', sans-serif;
+}
+
+
 body {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: var(--font-text)
 }
 
 .mainlogin{
-    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/09/07/Modern-Blue-Web-Site-Background-Graphics-5332399-1.jpg");
+    background-color: var(--azul-escuro);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -25,19 +37,16 @@ body {
 
 }
 
-.formlogin legend, .formlogin p {
+.login__logo, .formlogin p {
     text-align: center;
 }
 
-.formlogin legend{
-    font-weight: 500;
-    color: #07a6d6;
-    font-size: 28px;
+.login__logo{
     margin-bottom: 10px;
 }
 
 .formlogin p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: grey;
 }
 
@@ -54,7 +63,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: 1px grey solid;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: grey
 }
 
@@ -81,7 +90,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     border: none;
-    background: #57c4e5;
+    background: var(--azul-claro);
     border-radius: 10px;
     color: #FFFFFF;
     transition: 400ms;
