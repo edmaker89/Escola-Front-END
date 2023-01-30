@@ -1,11 +1,21 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./carrossel.css);
+@import url(./topicos.css);
+
 :root{
     --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja:  #eb9800;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: 'Poppins', sans-serif;
+    --azul: #002F52;
+
 }
 
 body{
     background-color: var(--cor-de-fundo);
-}
-
-h1 {
-    background-color: white;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
