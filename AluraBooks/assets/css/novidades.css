@@ -45,3 +45,28 @@
 
     
 }
+
+@media screen and (min-width: 1024px) {
+    .novidades__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .novidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .novidades__email{
+        width: 30%;
+    }   
+    .novidades__titulo{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .novidades{
+        padding: 3em 20vw;
+    }
+}
