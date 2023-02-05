@@ -1,0 +1,24 @@
+.sobre {
+    text-align: center;
+    padding: 96px 40vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.sobre__tag {
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sobre__titulo {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.sobre__texto {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--cinza-claro);
+}

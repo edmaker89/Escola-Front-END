@@ -1,7 +1,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-around;
-    padding: 2em 2em;
+    padding: 1.5em 3em;
 }
 
 .nav-bar__logo{

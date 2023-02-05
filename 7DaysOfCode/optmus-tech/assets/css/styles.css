@@ -1,12 +1,12 @@
 @import url(header.css);
+@import url(sobre.css);
 
 :root{
     --branco: white;
     --cinza-claro: #667085;
     --cinza-escuro: #3A404E;
     --vermelho: #8E2424;
-    --fonte-principal: 'Inter',
-     sans-serif;
+    --fonte-principal: 'Inter', sans-serif;
     --vermelho-transparent-5: #8E242408;
     --vermelho-transparent-16: #8E242416;
 }
