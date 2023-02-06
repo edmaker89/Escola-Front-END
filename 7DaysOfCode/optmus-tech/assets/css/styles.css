@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(sobre.css);
+@import url(metricas.css);
 
 :root{
     --branco: white;

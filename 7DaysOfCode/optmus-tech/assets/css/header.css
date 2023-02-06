@@ -43,7 +43,7 @@
 }
 
 .nav-bar__link:hover{
-    color: black;
+    color: var(--vermelho);
 }
 
 .nav-bar__link--btn:hover{
