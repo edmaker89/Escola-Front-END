@@ -1,0 +1,40 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px;
+    
+}
+
+.vagas__publicidade{
+    text-align: center;
+    
+}
+
+.publicidade__tag{
+    font-size: 14;
+    color: var(--vermelho);
+    background-color: var(--vermelho-transparent-5);
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+
+.publicidade__titulo {
+    color: var(--cor-titulo);
+    font-weight: 600;
+    font-size: 36px;
+    margin: .8em;
+}
+
+.publicidade__texto {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.publicidade__img {
+    width: 80%;
+    padding: 64px 0;
+    align-self: center;
+}
