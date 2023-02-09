@@ -3,6 +3,7 @@
 @import url(metricas.css);
 @import url(vagas.css);
 @import url(lista-vagas.css);
+@import url(depoimentos.css);
 
 :root{
     --branco: white;
@@ -13,6 +14,7 @@
     --fonte-principal: 'Inter', sans-serif;
     --vermelho-transparent-5: #8E242408;
     --vermelho-transparent-16: #8E242480;
+    --fundo-vermelho-transp: #C3191908;
 }
 
 body{
