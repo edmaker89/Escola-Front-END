@@ -1,6 +1,6 @@
 .nav-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1.5em 3em;
 }
 
@@ -53,3 +53,18 @@
 
 }
 
+@media screen and (max-width: 930px) {
+    .nav-bar__logo h2{
+        display: none;
+    }
+
+    .nav-bar__menus{
+        display:none
+    }
+    .nav-bar {
+        padding: 1em;
+    }
+    .nav-bar__botoes {
+        margin-top: .5em;
+    }
+}

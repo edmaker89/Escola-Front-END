@@ -41,3 +41,18 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 960px) {
+    .depoimentos {
+        padding: 0; 
+    }
+
+    .depoimentos__bg{
+        width: 100%;
+        padding: 32px;
+    }
+
+    .depoimentos__titulo{
+        font-size: 24px;
+    }
+}

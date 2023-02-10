@@ -38,3 +38,11 @@
     padding: 64px 0;
     align-self: center;
 }
+
+@media screen and (max-width: 960px) {
+    
+    .vagas{
+        padding: 96px 0px 0 0px;
+    }
+    
+}

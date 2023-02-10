@@ -53,3 +53,22 @@
     color: #98A2B3;
     font-size: 16px;
 }
+
+@media screen and (max-width: 960px) {
+
+    .rodape__titulo{
+        font-size: 24px;
+    }
+    .rodape__texto{
+        font-size: 16px;
+        padding: 1rem;
+    }
+    .rodape__email{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .rodape{
+        padding: 96px 16px;
+    }
+
+}

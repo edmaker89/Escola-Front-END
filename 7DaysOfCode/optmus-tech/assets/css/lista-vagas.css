@@ -34,3 +34,16 @@
     color: var(--cinza-claro);
     margin-right: 1em;
 }
+
+@media screen and (max-width: 930px){
+    .lista-vagas {
+        padding: 0 0 96px 0;
+    }
+
+    .lista-vagas__card{
+        padding: 16px
+    }
+    .lista-vagas__categorias{
+        width: 80%;
+    }
+}

@@ -30,3 +30,12 @@
     color: var(--cinza-claro);
     line-height: 1.5em;
 }
+@media screen and (max-width: 930px) {
+    .metricas {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+    }
+}

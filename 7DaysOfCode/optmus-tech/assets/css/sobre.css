@@ -22,3 +22,9 @@
     font-weight: 300;
     color: var(--cinza-claro);
 }
+
+@media screen and (max-width: 930px){
+    .sobre {
+        padding: 96px 24px;
+    }
+}
