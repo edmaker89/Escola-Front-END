@@ -4,6 +4,7 @@
 @import url(vagas.css);
 @import url(lista-vagas.css);
 @import url(depoimentos.css);
+@import url(rodape.css);
 
 :root{
     --branco: white;
