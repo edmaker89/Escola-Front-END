@@ -1,0 +1,19 @@
+//import css-variables from styles/abstract/_variaveis.scss
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+    
+
+footer
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-terciaria, $cor-primaria)
+    text-align: center
+    font-size: $tamanho-do-texto / 2
+    border-top: 2px solid $cor-primaria
+    margin-top: 1rem
+    padding: 1.2rem
+    
+
+    i
+        color: red
+

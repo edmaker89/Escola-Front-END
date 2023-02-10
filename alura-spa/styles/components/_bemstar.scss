@@ -1,0 +1,29 @@
+@import '../abstract/_variaveis.scss';
+
+#bemstar{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    .inner-bemstar__textos{
+        h3 {
+            font-size: $tamanho-do-texto /2;
+            font-weight: 300;
+            color: $cor-primaria;
+            margin-bottom: 1em;
+        }
+        h4 {
+            font-weight: 500;
+            margin-bottom: 1em;
+        }
+        p{
+            background-color: $cor-terciaria;
+            padding: 1rem;
+            border-radius: 24px;
+            font-weight: 300;
+            line-height: 1.2em;
+        }
+    }
+}
